@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container1 {
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0; /* Ensure no default margin for h1 */
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: flex-start; /* Align items to the start along the vertical axis */
+  flex-direction: column;
+}
+.dashboard-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sidebar {
+  background-color: #282323;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.sidebar h2 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  display: block;
+  padding: 8px 0;
+  transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+  color: #f9f3f3; /* Darken the text color on hover */
+}
+
+.nav {
+  background-color: #1a1919;
+  padding: 10px;
+  text-align: center;
+  display: flex; /* Make the nav container a flex container */
+  justify-content: center; /* Center the nav links horizontally */
+}
+
+.nav a {
+  color: #231c1c;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav a:hover {
+  background-color: #120e0e;
+}
+
+/* Subnav styles */
+
+.sub-nav-links {
+  display: none; /* Hide the sub-nav links by default */
+  position: absolute; /* Position them absolutely */
+  background-color: #2a2828; /* Match the background color of the main nav */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.nav-links:hover .sub-nav-links {
+  display: block; /* Show sub-nav links on hover */
+}
+.sub-nav-links {
+  display: none; /* Hide the sub-nav links by default */
+  position: absolute; /* Position them absolutely */
+  background-color: #444; /* Match the background color of the main nav */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.nav-links:hover .sub-nav-links {
+  display: block; /* Show sub-nav links on hover */
+}
+
+.sub-nav-links a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sub-nav-links a:hover {
+  background-color: #555;
+}
+.social-media {
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  margin-top: 20px;
+  width: 100%; /* Ensure full width */
+}
+
+.social-media div {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-left: 20px; /* Add spacing between social media platforms */
+}
+
+.social-media div:last-child {
+  margin-right: 0; /* Remove margin from the last social media platform */
+}
+.social-media h2 {
+  margin-top: 0;
+  color: #333;
+}
+.social-media p {
+  color: #666;
+}
